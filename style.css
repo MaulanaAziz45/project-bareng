@@ -135,3 +135,23 @@ nav{
 
 
 /* bagian content */
+
+.about{
+    width: auto;
+    background-color: #C300FF80;
+    display: flex;
+
+    pading: 8px 20px ;
+    marin: 0;
+}
+.image-about{
+    justify-content: center;
+    align-itms: center;
+}
+.image-about img{
+    width: 50%;
+    height: auto;
+}
+.text-about{
+    background-color: red;
+}
