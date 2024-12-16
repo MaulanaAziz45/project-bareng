@@ -1,0 +1,2 @@
+penggunaan variabel / atribut menggunakan = camelcase
+warna sudah di sediakan di figma.
