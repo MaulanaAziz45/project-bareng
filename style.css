@@ -138,12 +138,12 @@ nav{
 
 .about{
     width: auto;
-    background-color:#ff8c42;
+    background-color: #F6EBDA;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0px 200px;
-    
+    position: relative;
 }
 .image-about{
     width:30%;
@@ -170,9 +170,12 @@ nav{
 }
 .text-about{
     width:40%;
-    color:white ;
+    color: #333;
     font-size: 1.2em;
-    backgrund-color: red;
+    
+}
+.text-about span{
+    border-bottom: 2px solid #ff8c42;
 }
 .text-about h3{
     font-size: 2em;
@@ -196,4 +199,37 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 1em;
+}
+
+.icons {
+    backgrond-color:green ;
+    width: 60%;
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.icons ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.icons ul li:nth-child(2) img{
+    backgrond-color:blue;
+    margin-top:7em;
+    width: 8em;
+    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+}
+.icons img{
+    width: 5em;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
