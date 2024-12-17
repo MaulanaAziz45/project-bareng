@@ -1,6 +1,6 @@
  /* *{
     border: 1px solid red !important;
-    ini ubtuk debuging
+    ini untuk debuging
 }  */
 
 
@@ -10,16 +10,21 @@ html{
 }
 
 body{
+    justify-content: center;
+    align-items: center;
 }
 
 /* bagian navigation bar */
 
 header{
     background-color: #F6EBDA;
+
 }
 
 nav{
-
+    width: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigationUtama{
@@ -27,7 +32,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 100%;
+    width: 80% auto;
 }
 
 .navigationLogo{
@@ -74,16 +79,23 @@ nav{
 
 .containerUtama{
     background-color: #F6EBDA;
+    width: 100%;
 }
+
+
+
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 175px;
-    width: 880px;
-    gap: 100px;
+    width: 60% auto;
+    gap: 10px;
+
 
 }
+
+
 
 .text-content {
     height: 80vh;
@@ -133,6 +145,34 @@ nav{
     object-fit: cover;
 }
 
+.deliveryUtama{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryHead h3{
+    color:#666;
+}
+
+
+.deliveryHead h3 span{
+    text-decoration: underline solid palevioletred;
+}
+
+
+
+.deliveryList{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 90px;
+    font-family:'poppins';
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 /* bagian content */
 
