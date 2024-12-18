@@ -185,7 +185,7 @@ nav{
     padding: 0px 200px;
     position: relative;
 }
-.image-about{
+.imageAbout{
     width:30%;
     height: auto;
     background-color: #ffff;
@@ -197,7 +197,7 @@ nav{
     -o-border-radius:5px ;
     margin-top:-3.5em;
 }
-.image-about img{
+.imageAbout img{
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -208,25 +208,25 @@ nav{
     -o-border-radius:5px ;
     
 }
-.text-about{
+.textAbout{
     width:40%;
     color: #333;
     font-size: 1.2em;
     
 }
-.text-about span{
+.textAbout span{
     border-bottom: 2px solid #ff8c42;
 }
-.text-about h3{
+.textAbout h3{
     font-size: 2em;
     font-weight: bold;
 }
-.text-about h4{
+.textAbout h4{
     font-size: 1.2em;
     font-weight: bold;
 }
 
-.text-about > button{
+.textAbout > button{
     font-weight: bold;
     background: none;
     border: none;
@@ -235,7 +235,7 @@ nav{
     border-radius: 30px;
     margin-top: 10px;
 }
-.text-about > button a{
+.textAbout > button a{
     color: white;
     text-decoration: none;
     font-size: 1em;
@@ -243,11 +243,12 @@ nav{
 
 .icons {
     backgrond-color:green ;
-    width: 60%;
+    width: 55%;
     position: absolute;
     top:0;
     right:0;
-
+    padding-right: 8%;
+    opacity:0.4;
 }
 .icons ul{
     display: flex;
@@ -256,14 +257,26 @@ nav{
 }
 
 .icons ul li:nth-child(2) img{
+    backgroud-color:blue;
+    margin-top:1em;
+    opcity:0.5;
+    margin-left:10em;
+    width: 50%; height: auto;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+.icons ul li:nth-child(3) img{
     backgrond-color:blue;
-    margin-top:7em;
-    width: 8em;
-    transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
+    margin-top:18em;
+    widh: 8em;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
 .icons img{
     width: 5em;
